@@ -1,0 +1,11 @@
+::selection{
+	background-color: rgba(0,255,0,0.3);
+	color: aliceblue;
+}
+.context{
+	text-align: center;
+}
+#info{
+	position: relative;
+	top: 300px;
+}
