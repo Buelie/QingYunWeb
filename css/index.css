@@ -1,11 +1,77 @@
-::selection{
-	background-color: rgba(0,255,0,0.3);
-	color: aliceblue;
-}
-.context{
+.centre{
 	text-align: center;
 }
-#info{
+.nav{
+	background-color: #0f0f0f;
+	color: #FFF;
+	padding: 15px;
+	margin: -8px;
+}
+.active{
+	color: #FFF;
+	text-decoration-line: none;
+	margin: 2px;
+	font-size: 8px;
+}
+.hover:link{
+	color: #FFF;
+	text-decoration-line: none;
+	margin: 2px;
+	transition: 0.5s;
+	font-size: 8px;
+}
+.hover:visited{
+	color: #FFF;
+	text-decoration-line: none;
+	margin: 2px;
+	transition: 0.5s;
+	font-size: 8px;
+}
+.hover:hover{
+	color: #FFF;
+	text-decoration-line: underline;
+	text-decoration-color: #7fffd4;
+	text-decoration-style: double;
+	margin: 2px;
+	transition: 0.5s;
+	font-size: 8px;
+}
+.footer{
 	position: relative;
-	top: 300px;
+	bottom: 0px;
+	background-color: #101010;
+	height: 300px;
+	margin: -8px;
+}
+#footer-img{
+	position: relative;
+	bottom: 0px;
+	float: left;
+}
+.left{
+	float: left;
+	position: relative;
+	left: 10px;
+}
+.right{
+	float: right;
+	position: relative;
+	right: 10px;
+}
+.big-img{
+	position: relative;
+	top: -15px;
+	height: 600px;
+	background-image: url("../img/bigimg.jpg");
+	background-size: 100%;
+	margin: -8px;
+}
+.big-title{
+	position: relative;
+	top: 250px;
+	color: #FFF;
+}
+::selection{
+	background-color: rgba(0,255,0,0.2);
+	color: #FFF;
 }
